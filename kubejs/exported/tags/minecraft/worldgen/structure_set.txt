@@ -1,0 +1,4 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 10, 2023, 6:40:05 PM
+
+#ftbteamdimensions:default
+- ftbteamdimensions:start (from ftb-team-dimensions-1.0.1-build.3.jar)
