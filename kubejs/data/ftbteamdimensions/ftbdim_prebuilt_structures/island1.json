@@ -1,0 +1,12 @@
+{
+    "id": "ftbteamdimensions:island1",
+    "structure": "skymachina:islands/island1",
+    "name": "Testing Island",
+    "author": "ACrazyD",
+    "structure_set": "ftbteamdimensions:default",
+    "height": 64,
+    "dimension_type": "ftbteamdimensions:default",
+    "preview_image": "ftbteamdimensions:textures/spawn/island1.png",
+    "spawn_override": [ 0, 64, 0 ],
+    "display_order": 1
+  }
