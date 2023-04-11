@@ -6,7 +6,7 @@
         "max": 40
       },
       "entries": [		
-        {"type": "minecraft:item", "weight": 10, "name": "skymachina:iron_chunk"},
+        {"type": "minecraft:item", "weight": 10, "name": "skymachina:iron_filings"},
         {"type": "minecraft:empty", "weight": 90}
       ]
     }

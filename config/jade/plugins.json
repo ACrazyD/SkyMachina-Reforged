@@ -1,4 +1,7 @@
 {
+  "enderchests": {
+    "hud": true
+  },
   "minecraft": {
     "block_inventory.detailed_amount": 54,
     "furnace": true,
@@ -49,6 +52,17 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "endertanks": {
+    "hud.basic": true,
+    "hud": true,
+    "hud.status": true,
+    "hud.contents": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
   "immersiveengineering": {
     "hemp": true,
     "multiblock_icon": true
@@ -76,6 +90,9 @@
     "adventure": true,
     "ench": true,
     "spawner": true
+  },
+  "corpse": {
+    "corpse": true
   },
   "ae2": {
     "part_icon": true,

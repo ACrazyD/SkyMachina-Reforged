@@ -14,9 +14,28 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:grass_beater')
 
 
-	//Dummy Ores
+	//Duh Stones
+	event.create('skymachina:tiny_dirt_pile')
+	event.create('skymachina:slightly_larger_dirt_pile')
 	event.create('skymachina:cobblestone_pebble')
-	event.create('skymachina:iron_chunk')
+	event.create('skymachina:andesite_pebble')
+	event.create('skymachina:diorite_pebble')
+	event.create('skymachina:granite_pebble')
+
+	//Duh Ores
+	event.create('skymachina:iron_filings')
+	event.create('skymachina:copper_filings')
+	event.create('skymachina:tin_filings')
+	event.create('skymachina:gold_filings')
+	event.create('skymachina:diamond_fragments')
+	event.create('skymachina:emerald_fragments')
+	event.create('skymachina:redstone_grains')
+	event.create('skymachina:skystone_grains')
+
+	//WorldEdit Wands
+	event.create('skymachina:world_edit_wand')
+	event.create('skymachina:world_edit_brush')
+	event.create('skymachina:world_edit_nav')
 })
 
 StartupEvents.registry('block', event => {

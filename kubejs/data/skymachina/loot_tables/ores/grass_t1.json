@@ -1,0 +1,18 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 4,
+        "max": 10
+      },
+      "entries": [		
+        {"type": "minecraft:item", "weight": 5, "name": "skymachina:tiny_dirt_pile"},
+        {"type": "minecraft:item", "weight": 20, "name": "skymachina:cobblestone_pebble"},
+        {"type": "minecraft:item", "weight": 10, "name": "skymachina:andesite_pebble"},
+        {"type": "minecraft:item", "weight": 10, "name": "skymachina:diorite_pebble"},
+        {"type": "minecraft:item", "weight": 10, "name": "skymachina:granite_pebble"},
+        {"type": "minecraft:empty", "weight": 45}
+      ]
+    }
+  ]
+}

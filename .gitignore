@@ -26,6 +26,7 @@ usernamecache.json
 
 # Folders
 /crash-reports
+/essential
 /fancymenu_data
 /journeymap
 /local
