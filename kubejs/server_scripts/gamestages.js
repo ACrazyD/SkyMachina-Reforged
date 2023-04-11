@@ -3,7 +3,7 @@
 BlockEvents.rightClicked(event => {
     const { player, server } = event
     if (event.block.hasTag('minecraft:dirt')) {
-        if (event.player.isCrouching() && player.mainHandItem === 'minecraft:air' && player.offHandItem === 'minecraft:air') {
+        if (event.player.isCrouching() && player.mainHandItem === 'skymachina:grass_beater' && player.offHandItem === 'minecraft:air') {
             event.player.give('skymachina:cobblestone_pebble')
         }
     }

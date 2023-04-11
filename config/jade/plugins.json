@@ -72,6 +72,11 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
   "ae2": {
     "part_icon": true,
     "charger": true,

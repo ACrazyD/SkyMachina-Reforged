@@ -10,6 +10,8 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:iron_rock_smasher', 'pickaxe').tier('iron')
 	event.create('skymachina:diamond_rock_smasher', 'pickaxe').tier('diamond')
 	event.create('skymachina:netherite_rock_smasher', 'pickaxe').tier('netherite')
+	//Tools - GrassBeater
+	event.create('skymachina:grass_beater')
 
 
 	//Dummy Ores
