@@ -15,13 +15,29 @@ BlockEvents.rightClicked(event => {
 BlockEvents.broken(event => {
     const { server, player } = event;
     const stages = {
-        cobble_iron: { loot: 'skymachina:ores/cobble_iron' },
-        iron_copper: { loot: 'skymachina:ores/iron_copper' }
+        t1_rocks: { loot: 'skymachina:ores/t1_rocks' },
+        t2_rocks: { loot: 'skymachina:ores/t2_rocks' },
+        t3_rocks: { loot: 'skymachina:ores/t3_rocks' },
+        t4_rocks: { loot: 'skymachina:ores/t4_rocks' },
+        t5_rocks: { loot: 'skymachina:ores/t5_rocks' },
+        t6_rocks: { loot: 'skymachina:ores/t6_rocks' },
+        t7_rocks: { loot: 'skymachina:ores/t7_rocks' }
     };
 
     for (const [stage, { loot }] of Object.entries(stages)) {
         if (event.player.stages.has(stage)) {
             if (player.mainHandItem === 'skymachina:stone_rock_smasher') {
+                if (event.block.hasTag(`forge:cobblestone`)) {
+                    server.runCommandSilent(`execute at @p run setblock ${event.block.x} ${event.block.y} ${event.block.z} minecraft:air`);
+                    server.runCommandSilent(`execute at @p run loot spawn ${event.block.x} ${event.block.y} ${event.block.z} loot ${loot}`);
+                }
+            }
+        }
+    }
+
+    for (const [stage, { loot }] of Object.entries(stages)) {
+        if (event.player.stages.has(stage)) {
+            if (player.mainHandItem === 'skymachina:copper_rock_smasher') {
                 if (event.block.hasTag(`forge:cobblestone`)) {
                     server.runCommandSilent(`execute at @p run setblock ${event.block.x} ${event.block.y} ${event.block.z} minecraft:air`);
                     server.runCommandSilent(`execute at @p run loot spawn ${event.block.x} ${event.block.y} ${event.block.z} loot ${loot}`);

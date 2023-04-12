@@ -277,7 +277,7 @@
 				yellow_valve_handle = 8.0
 				brown_valve_handle = 8.0
 				cyan_valve_handle = 8.0
-				windmill_bearing = 512.0
+				windmill_bearing = 256.0
 				light_blue_valve_handle = 8.0
 				lime_valve_handle = 8.0
 				purple_valve_handle = 8.0

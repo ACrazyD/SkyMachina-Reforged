@@ -49,19 +49,11 @@
     "mob_spawner": true,
     "redstone": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
-  },
   "endertanks": {
     "hud.basic": true,
     "hud": true,
     "hud.status": true,
     "hud.contents": true
-  },
-  "shetiphiancore": {
-    "hud.rgb16": true,
-    "hud": true,
-    "hud.redstone": true
   },
   "immersiveengineering": {
     "hemp": true,
@@ -75,24 +67,13 @@
     "registry_name": "OFF",
     "mod_name": true
   },
-  "create": {
-    "filter": true,
-    "goggles.requires_goggles": true,
-    "goggles": true,
-    "copper_backtank": true,
-    "blaze_burner": true,
-    "exact_block": true,
-    "crafting_blueprint": true,
-    "goggles.detailed": false,
-    "placard": true
+  "mcjtylib": {
+    "jadeaddons": true
   },
   "apotheosis": {
     "adventure": true,
     "ench": true,
     "spawner": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "ae2": {
     "part_icon": true,
@@ -105,5 +86,37 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
+  },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
+  "shetiphiancore": {
+    "hud.rgb16": true,
+    "hud": true,
+    "hud.redstone": true
+  },
+  "create": {
+    "filter": true,
+    "goggles.requires_goggles": true,
+    "goggles": true,
+    "copper_backtank": true,
+    "blaze_burner": true,
+    "exact_block": true,
+    "crafting_blueprint": true,
+    "goggles.detailed": false,
+    "placard": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

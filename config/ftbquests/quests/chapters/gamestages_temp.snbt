@@ -1,0 +1,251 @@
+{
+	id: "1E50ADDAD1DC319B"
+	group: ""
+	order_index: 0
+	filename: "gamestages_temp"
+	title: "Gamestages (Temp)"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			can_repeat: true
+			id: "5D3E32BEE513DF4B"
+			tasks: [{
+				id: "50C8EC244531E6EB"
+				type: "checkmark"
+				title: "T1_Rocks Off"
+			}]
+			rewards: [{
+				id: "20322DD2F88BC94A"
+				type: "command"
+				command: "/gamestage remove @p t1_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			can_repeat: true
+			id: "2ECC0335CDB27772"
+			tasks: [{
+				id: "1C2DB0DABE76A9C8"
+				type: "checkmark"
+				title: "T1_Rocks On"
+				disable_toast: true
+			}]
+			rewards: [{
+				id: "70154059E8FF0D5F"
+				type: "command"
+				command: "/gamestage add @p t1_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			can_repeat: true
+			id: "680747A44BB340BF"
+			tasks: [{
+				id: "43E9C98BA32B52E4"
+				type: "checkmark"
+				title: "T2_Rocks On"
+			}]
+			rewards: [{
+				id: "7C90664DCE5565A8"
+				type: "command"
+				command: "/gamestage add @p t2_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			can_repeat: true
+			id: "18EC517B3FE9586A"
+			tasks: [{
+				id: "06AB259E11293C35"
+				type: "checkmark"
+				title: "T3_Rocks On"
+			}]
+			rewards: [{
+				id: "714531F051B19BDB"
+				type: "command"
+				command: "/gamestage add @p t3_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			can_repeat: true
+			id: "735531E040EC065C"
+			tasks: [{
+				id: "0320CCCA01FC1B12"
+				type: "checkmark"
+				title: "T4_Rocks On"
+			}]
+			rewards: [{
+				id: "7666707AD3E2A5FA"
+				type: "command"
+				command: "/gamestage add @p t4_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			can_repeat: true
+			id: "1B55A1B6C197D0FB"
+			tasks: [{
+				id: "66D61993FDEF2189"
+				type: "checkmark"
+				title: "T5_Rocks On"
+			}]
+			rewards: [{
+				id: "11A1DB81D37AAA32"
+				type: "command"
+				command: "/gamestage add @p t5_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			can_repeat: true
+			id: "201984A050C97194"
+			tasks: [{
+				id: "348E1750299601EE"
+				type: "checkmark"
+				title: "T6_Rocks On"
+			}]
+			rewards: [{
+				id: "6421C1B4E2E9E631"
+				type: "command"
+				command: "/gamestage add @p t6_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			can_repeat: true
+			id: "74AE8DD1ABCDEF79"
+			tasks: [{
+				id: "502F2482A11956C9"
+				type: "checkmark"
+				title: "T7_Rocks On"
+			}]
+			rewards: [{
+				id: "619FABA33ECE69A2"
+				type: "command"
+				command: "/gamestage add @p t7_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			can_repeat: true
+			id: "14F53374EDAADACC"
+			tasks: [{
+				id: "4CD2865A50FC6808"
+				type: "checkmark"
+				title: "T2_Rocks Off"
+			}]
+			rewards: [{
+				id: "3B6EC6D165A49824"
+				type: "command"
+				command: "/gamestage remove @p t2_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			can_repeat: true
+			id: "4BEF32A395F824F9"
+			tasks: [{
+				id: "256C218A4EEBCF4E"
+				type: "checkmark"
+				title: "T3_Rocks Off"
+			}]
+			rewards: [{
+				id: "59BFD0446ABB51DF"
+				type: "command"
+				command: "/gamestage remove @p t3_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			can_repeat: true
+			id: "6AF4B7510AF1EF6E"
+			tasks: [{
+				id: "15BC169591B698AE"
+				type: "checkmark"
+				title: "T4_Rocks Off"
+			}]
+			rewards: [{
+				id: "5E2AE0BAF2F94F5A"
+				type: "command"
+				command: "/gamestage remove @p t4_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			can_repeat: true
+			id: "520287D5EF7F040E"
+			tasks: [{
+				id: "2917DCDA1F3F8195"
+				type: "checkmark"
+				title: "T5_Rocks Off"
+			}]
+			rewards: [{
+				id: "3D2040F0C628FA54"
+				type: "command"
+				command: "/gamestage remove @p t5_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			can_repeat: true
+			id: "37EFF573776B7F29"
+			tasks: [{
+				id: "091A7C844D0C3EFC"
+				type: "checkmark"
+				title: "T6_Rocks Off"
+			}]
+			rewards: [{
+				id: "540E14CF103950F3"
+				type: "command"
+				command: "/gamestage remove @p t6_rocks"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			can_repeat: true
+			id: "6D4DA391A1068686"
+			tasks: [{
+				id: "3FD5047C592F5533"
+				type: "checkmark"
+				title: "T7_Rocks Off"
+			}]
+			rewards: [{
+				id: "66894FCD3AB1CF2F"
+				type: "command"
+				command: "/gamestage remove @p t7_rocks"
+				player_command: false
+			}]
+		}
+	]
+	quest_links: [ ]
+}
