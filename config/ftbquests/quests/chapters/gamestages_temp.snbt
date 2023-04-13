@@ -1,9 +1,10 @@
 {
 	id: "1E50ADDAD1DC319B"
-	group: ""
+	group: "66699AF9F038E868"
 	order_index: 0
 	filename: "gamestages_temp"
-	title: "Gamestages (Temp)"
+	title: "Prospectors Guild"
+	icon: "skymachina:slightly_larger_dirt_pile"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

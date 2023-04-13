@@ -13,6 +13,18 @@ ServerEvents.recipes(event => {
             g: 'minecraft:gravel'
         }
     )
+    event.shaped(
+        Item.of('skymachina:iron_chunk', 1),
+        [
+            'fff',
+            'fgf',
+            'fff'
+        ],
+        {
+            f: 'skymachina:iron_filings',
+            g: 'minecraft:gravel'
+        }
+    )
 })
 
 

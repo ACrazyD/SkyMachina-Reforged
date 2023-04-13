@@ -1,3 +1,6 @@
 {
-	chapter_groups: [ ]
+	chapter_groups: [
+		{ id: "1E1ECEFD4F3E5B06", title: "Starting Phase" }
+		{ id: "66699AF9F038E868", title: "Traders Abroad" }
+	]
 }

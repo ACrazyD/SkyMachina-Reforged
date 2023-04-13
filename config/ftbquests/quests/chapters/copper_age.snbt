@@ -1,0 +1,41 @@
+{
+	id: "1EC27E901CFB7CDA"
+	group: "1E1ECEFD4F3E5B06"
+	order_index: 0
+	filename: "copper_age"
+	title: "Copper Age"
+	icon: "minecraft:copper_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "The Start."
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Starting the same as before."
+		description: [
+			""
+			"Now is a good time to find your \"Ultimine\" key in your controls for VeinMining"
+		]
+		id: "4931F4DFD98932FA"
+		tasks: [{
+			id: "4B520A481EEE530D"
+			type: "item"
+			title: "Any #minecraft:logs"
+			item: {
+				id: "itemfilters:tag"
+				Count: 1b
+				tag: {
+					value: "minecraft:logs"
+				}
+			}
+			count: 10L
+		}]
+		rewards: [{
+			id: "2E5BB7CC6019E51A"
+			type: "item"
+			item: "skymachina:sky_token"
+			count: 5
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,6 +1,46 @@
 console.info("Getting ready to mix things up...")
 
 ServerEvents.recipes(event => {
+    //Sanity Recipes
+    event.shaped(
+        Item.of('minecraft:chest', 4),
+        [
+            'lll',
+            'l l',
+            'lll'
+        ],
+        {
+            l: '#minecraft:logs'
+        }
+    )
+    event.shaped(
+        Item.of('minecraft:stick', 16),
+        [
+            'l',
+            'l'
+        ],
+        {
+            l: '#minecraft:logs'
+        }
+    )
+
+    //Ore Catalyst
+    event.shaped(
+        Item.of('skymachina:t1_ore_catalyst', 1),
+        [
+            'gdg',
+            'GiG',
+            'gdg'
+        ],
+        {
+            g: CP('gravel_2'),
+            d: CP('diorite_2'),
+            G: CP('granite_2'),
+            i: CP('iron_1')
+        }
+    )
+
+
     //Grass Beater
     event.shaped(
         Item.of('skymachina:grass_beater', 1),
@@ -107,6 +147,19 @@ ServerEvents.recipes(event => {
         {
             i: '#forge:ingots/copper',
             n: '#forge:nuggets/copper',
+            s: '#forge:rods/wooden'
+        }
+    )
+    event.shaped(
+        Item.of('skymachina:iron_rock_smasher', 1),
+        [
+            'iii',
+            'nsn',
+            ' s '
+        ],
+        {
+            i: '#forge:ingots/iron',
+            n: '#forge:nuggets/iron',
             s: '#forge:rods/wooden'
         }
     )

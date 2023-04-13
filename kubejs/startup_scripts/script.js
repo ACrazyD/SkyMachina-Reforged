@@ -22,6 +22,7 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:andesite_pebble')
 	event.create('skymachina:diorite_pebble')
 	event.create('skymachina:granite_pebble')
+	event.create('skymachina:rock_cluster')
 
 	//Mineral Deposits
 	event.create('skymachina:t1_mineral_deposit')
@@ -74,6 +75,10 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:sulfur_something')
 	event.create('skymachina:ruby_something')
 	event.create('skymachina:sapphire_something')
+
+	//Misc
+	event.create('skymachina:silt')
+	event.create('skymachina:sky_token')
 
 
 	//WorldEdit Wands

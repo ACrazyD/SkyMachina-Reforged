@@ -7,8 +7,8 @@
       },
       "entries": [		
         {"type": "minecraft:item", "weight": 10, "name": "skymachina:iron_filings"},
-        {"type": "minecraft:item", "weight": 10, "name": "minecraft:gravel"},
-        {"type": "minecraft:empty", "weight": 80}
+        {"type": "minecraft:item", "weight": 5, "name": "minecraft:gravel"},
+        {"type": "minecraft:empty", "weight": 85}
       ]
     }
   ]

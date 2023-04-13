@@ -1,0 +1,29 @@
+{
+	id: "78AE457AAEB8D891"
+	group: "66699AF9F038E868"
+	order_index: 1
+	filename: "daves_markerplace"
+	title: "Dave's Markerplace"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		subtitle: "Costly Mistake. Game Ending really..."
+		description: ["Naa we get it, mistakes happen, we can give you but one more chance!."]
+		optional: true
+		id: "074B1E04BD47BBBB"
+		tasks: [{
+			id: "7113CA2F9CD28A3C"
+			type: "checkmark"
+			title: "Lost Your Tree?"
+		}]
+		rewards: [{
+			id: "4FE57726CA2DEF11"
+			type: "item"
+			item: "minecraft:oak_sapling"
+			count: 5
+		}]
+	}]
+	quest_links: [ ]
+}
