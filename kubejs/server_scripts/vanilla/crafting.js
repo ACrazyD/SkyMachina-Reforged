@@ -51,7 +51,7 @@ ServerEvents.recipes(event => {
         ],
         {
             s: '#forge:rods/wooden',
-            p: '#minecraft:planks'
+            p: '#minecraft:logs'
         }
     )
     //Dirt Compressing
@@ -160,6 +160,43 @@ ServerEvents.recipes(event => {
         {
             i: '#forge:ingots/iron',
             n: '#forge:nuggets/iron',
+            s: '#forge:rods/wooden'
+        }
+    )
+
+    event.shaped(
+        Item.of('skymachina:iron_prospector_spade', 1),
+        [
+            '   ',
+            ' i ',
+            's  '
+        ],
+        {
+            i: '#forge:ingots/iron',
+            s: '#forge:rods/wooden'
+        }
+    )
+    event.shaped(
+        Item.of('skymachina:diamond_prospector_spade', 1),
+        [
+            '   ',
+            ' i ',
+            's  '
+        ],
+        {
+            i: '#forge:gems/diamond',
+            s: '#forge:rods/wooden'
+        }
+    )
+    event.shaped(
+        Item.of('skymachina:netherite_prospector_spade', 1),
+        [
+            '   ',
+            ' i ',
+            's  '
+        ],
+        {
+            i: '#forge:ingots/netherite',
             s: '#forge:rods/wooden'
         }
     )

@@ -3,7 +3,7 @@ console.info("Im extruding things...")
 ServerEvents.recipes(event => {
 
     //
-
+    event.recipes.createMechanicalExtruderExtruding(Item.of('skymachina:rock_cluster').withChance(0.6),[Fluid.of('skymachina:mineral_water'),Fluid.of('minecraft:lava')])
     event.recipes.createMechanicalExtruderExtruding(Item.of('skymachina:t1_mineral_deposit').withChance(0.3),[Fluid.of('skymachina:mineral_water'),Fluid.of('minecraft:lava')]).withCatalyst('skymachina:t1_ore_catalyst')
     event.recipes.createMechanicalExtruderExtruding(Item.of('skymachina:t2_mineral_deposit').withChance(0.3),[Fluid.of('skymachina:mineral_water'),Fluid.of('minecraft:lava')]).withCatalyst('skymachina:t2_ore_catalyst')
     event.recipes.createMechanicalExtruderExtruding(Item.of('skymachina:t3_mineral_deposit').withChance(0.3),[Fluid.of('skymachina:mineral_water'),Fluid.of('minecraft:lava')]).withCatalyst('skymachina:t3_ore_catalyst')

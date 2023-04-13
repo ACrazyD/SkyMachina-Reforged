@@ -5,14 +5,16 @@ console.info('Dont mind me, just createing some new things...')
 StartupEvents.registry('item', event => {
 
 	//Tools - RockSmashers+Spades
-	event.create('skymachina:prospector_spade', 'shovel').tier('stone')
+	event.create('skymachina:iron_prospector_spade', 'shovel').tier('iron')
+	event.create('skymachina:diamond_prospector_spade', 'shovel').tier('diamond')
+	event.create('skymachina:netherite_prospector_spade', 'shovel').tier('netherite')
 	event.create('skymachina:stone_rock_smasher', 'pickaxe').tier('stone')
-	event.create('skymachina:copper_rock_smasher', 'pickaxe').tier('stone')
+	event.create('skymachina:copper_rock_smasher', 'pickaxe').tier('copper')
 	event.create('skymachina:iron_rock_smasher', 'pickaxe').tier('iron')
 	event.create('skymachina:diamond_rock_smasher', 'pickaxe').tier('diamond')
 	event.create('skymachina:netherite_rock_smasher', 'pickaxe').tier('netherite')
 	//Tools - GrassBeater
-	event.create('skymachina:grass_beater')
+	//event.create('skymachina:grass_beater')
 
 
 	//Duh Stones
@@ -63,18 +65,23 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:coal_fragments')
 	event.create('skymachina:redstone_grains')
 	event.create('skymachina:skystone_grains')
-	// I dont know what to name these items atm...
-	event.create('skymachina:debris_something')
-	event.create('skymachina:urainite_soemthing')
-	event.create('skymachina:lapis_something')
-	event.create('skymachina:fluorite_something')
-	event.create('skymachina:dimshard_something')
-	event.create('skymachina:apatite_something')
-	event.create('skymachina:cinnabar_something')
-	event.create('skymachina:niter_something')
-	event.create('skymachina:sulfur_something')
-	event.create('skymachina:ruby_something')
-	event.create('skymachina:sapphire_something')
+	//New Named
+	event.create('skymachina:debris_fragments')
+	event.create('skymachina:urainite_fragments')
+	event.create('skymachina:lapis_fragments')
+	event.create('skymachina:ruby_fragments')
+	event.create('skymachina:sapphire_fragments')
+	event.create('skymachina:apatite_fragments')
+	event.create('skymachina:cinnabar_fragments')
+	event.create('skymachina:dimshard_fragments')
+	event.create('skymachina:fluorite_powder')
+	event.create('skymachina:niter_powder')
+	event.create('skymachina:sulfur_powder')
+	// I dont know what to name these items atm... (EMPTY)
+	
+	
+	
+	
 
 	//Misc
 	event.create('skymachina:silt')

@@ -1,0 +1,6 @@
+
+[Tweaks]
+	#The max length a vine can grow down
+	#Range: 0 ~ 384
+	MaxVineLength = 16
+
