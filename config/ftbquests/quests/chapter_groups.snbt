@@ -1,6 +1,8 @@
 {
 	chapter_groups: [
 		{ id: "1E1ECEFD4F3E5B06", title: "Starting Phase" }
+		{ id: "2E5361F1FF1CBAE8", title: "Stages" }
 		{ id: "66699AF9F038E868", title: "Traders Abroad" }
+		{ id: "78E0DF660891B501", title: "Mod By Mod" }
 	]
 }

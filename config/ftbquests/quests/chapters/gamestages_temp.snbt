@@ -9,8 +9,12 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
+			title: "Copper Filings Off"
+			icon: "skymachina:copper_filings"
 			x: 1.0d
 			y: 0.0d
+			subtitle: "Toggles Copper Filings Drops Off"
+			dependencies: ["7A4415305640E917"]
 			can_repeat: true
 			id: "5D3E32BEE513DF4B"
 			tasks: [{
@@ -21,13 +25,19 @@
 			rewards: [{
 				id: "20322DD2F88BC94A"
 				type: "command"
+				team_reward: false
+				auto: "invisible"
 				command: "/gamestage remove @p t1_rocks"
 				player_command: false
 			}]
 		}
 		{
+			title: "Copper Filings On"
+			icon: "skymachina:copper_filings"
 			x: 0.0d
 			y: 0.0d
+			subtitle: "Toggles Copper Filings Drops On"
+			dependencies: ["7A4415305640E917"]
 			can_repeat: true
 			id: "2ECC0335CDB27772"
 			tasks: [{
@@ -39,13 +49,19 @@
 			rewards: [{
 				id: "70154059E8FF0D5F"
 				type: "command"
+				team_reward: false
+				auto: "invisible"
 				command: "/gamestage add @p t1_rocks"
 				player_command: false
 			}]
 		}
 		{
+			title: "Iron Filings On"
+			icon: "skymachina:iron_filings"
 			x: 0.0d
 			y: 1.0d
+			subtitle: "Toggles Iron Filings Drops On"
+			dependencies: ["338FEB4235FB39B3"]
 			can_repeat: true
 			id: "680747A44BB340BF"
 			tasks: [{
@@ -56,6 +72,8 @@
 			rewards: [{
 				id: "7C90664DCE5565A8"
 				type: "command"
+				team_reward: false
+				auto: "invisible"
 				command: "/gamestage add @p t2_rocks"
 				player_command: false
 			}]
@@ -63,6 +81,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "18EC517B3FE9586A"
 			tasks: [{
@@ -80,6 +99,7 @@
 		{
 			x: 0.0d
 			y: 3.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "735531E040EC065C"
 			tasks: [{
@@ -97,6 +117,7 @@
 		{
 			x: 0.0d
 			y: 4.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "1B55A1B6C197D0FB"
 			tasks: [{
@@ -114,6 +135,7 @@
 		{
 			x: 0.0d
 			y: 5.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "201984A050C97194"
 			tasks: [{
@@ -131,6 +153,7 @@
 		{
 			x: 0.0d
 			y: 6.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "74AE8DD1ABCDEF79"
 			tasks: [{
@@ -146,8 +169,12 @@
 			}]
 		}
 		{
+			title: "Iron Filings Off"
+			icon: "skymachina:iron_filings"
 			x: 1.0d
 			y: 1.0d
+			subtitle: "Toggles Iron Filings Drop Off"
+			dependencies: ["338FEB4235FB39B3"]
 			can_repeat: true
 			id: "14F53374EDAADACC"
 			tasks: [{
@@ -158,6 +185,8 @@
 			rewards: [{
 				id: "3B6EC6D165A49824"
 				type: "command"
+				team_reward: false
+				auto: "invisible"
 				command: "/gamestage remove @p t2_rocks"
 				player_command: false
 			}]
@@ -165,6 +194,7 @@
 		{
 			x: 1.0d
 			y: 2.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "4BEF32A395F824F9"
 			tasks: [{
@@ -182,6 +212,7 @@
 		{
 			x: 1.0d
 			y: 3.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "6AF4B7510AF1EF6E"
 			tasks: [{
@@ -199,6 +230,7 @@
 		{
 			x: 1.0d
 			y: 4.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "520287D5EF7F040E"
 			tasks: [{
@@ -216,6 +248,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "37EFF573776B7F29"
 			tasks: [{
@@ -233,6 +266,7 @@
 		{
 			x: 1.0d
 			y: 6.0d
+			dependencies: ["2FC6D388AA85B613"]
 			can_repeat: true
 			id: "6D4DA391A1068686"
 			tasks: [{
@@ -245,6 +279,18 @@
 				type: "command"
 				command: "/gamestage remove @p t7_rocks"
 				player_command: false
+			}]
+		}
+		{
+			title: "LOCK ITEM"
+			x: -2.0d
+			y: 3.0d
+			invisible: true
+			id: "2FC6D388AA85B613"
+			tasks: [{
+				id: "6E096A6E46E3E601"
+				type: "item"
+				item: "minecraft:bedrock"
 			}]
 		}
 	]

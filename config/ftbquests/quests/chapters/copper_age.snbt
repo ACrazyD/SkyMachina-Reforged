@@ -3,39 +3,254 @@
 	group: "1E1ECEFD4F3E5B06"
 	order_index: 0
 	filename: "copper_age"
-	title: "Copper Age"
-	icon: "minecraft:copper_ingot"
+	title: "Just Startin Out"
+	icon: "minecraft:grass_block"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		title: "The Start."
-		x: 0.0d
-		y: 0.0d
-		subtitle: "Starting the same as before."
-		description: [
-			""
-			"Now is a good time to find your \"Ultimine\" key in your controls for VeinMining"
-		]
-		id: "4931F4DFD98932FA"
-		tasks: [{
-			id: "4B520A481EEE530D"
-			type: "item"
-			title: "Any #minecraft:logs"
-			item: {
-				id: "itemfilters:tag"
-				Count: 1b
-				tag: {
-					value: "minecraft:logs"
+	quests: [
+		{
+			title: "The Start."
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Starting the same as before."
+			description: [
+				""
+				"Now is a good time to find your \"Ultimine\" key in your controls for VeinMining"
+			]
+			id: "4931F4DFD98932FA"
+			tasks: [{
+				id: "4B520A481EEE530D"
+				type: "item"
+				title: "Any #minecraft:logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
 				}
-			}
-			count: 10L
-		}]
-		rewards: [{
-			id: "2E5BB7CC6019E51A"
-			type: "item"
-			item: "skymachina:sky_token"
-			count: 5
-		}]
-	}]
+				count: 10L
+			}]
+			rewards: [{
+				id: "2E5BB7CC6019E51A"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.0d
+			id: "53DFE755DD8CDE46"
+			tasks: [{
+				id: "1FC4F58A7970D4B0"
+				type: "item"
+				item: "densetrees:dense_oak_log"
+			}]
+			rewards: [{
+				id: "58984AA6E3157174"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 25
+			}]
+		}
+		{
+			title: "Its a time for a beatin."
+			icon: "skymachinatweaks:grass_beater"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Your gonna use this alot..."
+			description: ["Sneak and rightclick on grass or dirt to gather pebbles."]
+			dependencies: ["4931F4DFD98932FA"]
+			id: "19995172D2F806EC"
+			tasks: [{
+				id: "289C903C3F612055"
+				type: "item"
+				item: "skymachinatweaks:grass_beater"
+			}]
+			rewards: [{
+				id: "07A880927365E6FF"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["19995172D2F806EC"]
+			id: "740CED1D745BD0F0"
+			tasks: [{
+				id: "5B7DF7E59AE742E6"
+				type: "item"
+				item: "minecraft:cobblestone"
+			}]
+			rewards: [{
+				id: "6ABD43FED0CE239B"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			dependencies: ["19995172D2F806EC"]
+			id: "40F569173796CA46"
+			tasks: [{
+				id: "2141E30CA6034200"
+				type: "item"
+				item: "minecraft:granite"
+			}]
+			rewards: [{
+				id: "4CD4365FCD380183"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -3.0d
+			dependencies: ["19995172D2F806EC"]
+			id: "1D8F78F0D34FD66A"
+			tasks: [{
+				id: "6D37762F189D6D23"
+				type: "item"
+				item: "minecraft:diorite"
+			}]
+			rewards: [{
+				id: "14BE8131393DA1B4"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -4.0d
+			dependencies: ["19995172D2F806EC"]
+			id: "1CD21FA65C45E4C3"
+			tasks: [{
+				id: "5BAFD4E6AF793E8B"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+			rewards: [{
+				id: "26238D873C833E56"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			x: 1.5d
+			y: -5.0d
+			dependencies: ["19995172D2F806EC"]
+			id: "68ACC26C7F49C11A"
+			tasks: [{
+				id: "3FC2F18E3AA9D765"
+				type: "item"
+				item: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "5772D9CDB99CEEB2"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			title: "Lets Get Smashin"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Your gonna make more of these..."
+			description: ["Break Cobblestone to get many things..."]
+			dependencies: [
+				"19995172D2F806EC"
+				"740CED1D745BD0F0"
+			]
+			id: "7A4415305640E917"
+			tasks: [{
+				id: "598AB01FC6D1D08F"
+				type: "item"
+				item: {
+					id: "skymachina:stone_rock_smasher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1FAC86E62E3866DA"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			title: "Man these are small"
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["7A4415305640E917"]
+			id: "2EC2C4D014CECB0C"
+			tasks: [
+				{
+					id: "14D6EBC1A6493793"
+					type: "item"
+					item: "skymachina:copper_filings"
+					count: 8L
+				}
+				{
+					id: "55BF457F4710DF63"
+					type: "item"
+					item: "minecraft:gravel"
+				}
+			]
+			rewards: [{
+				id: "188C2C7683712583"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			title: "Chunky"
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["2EC2C4D014CECB0C"]
+			id: "3FE9D940B012D8D0"
+			tasks: [{
+				id: "00CB82B9313DDB66"
+				type: "item"
+				item: "skymachina:copper_chunk"
+			}]
+			rewards: [{
+				id: "52A79162B83FB974"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+		{
+			title: "Ingot by Ingot"
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["3FE9D940B012D8D0"]
+			id: "0416CFCB050A7538"
+			tasks: [{
+				id: "176D118C4BF6FD89"
+				type: "item"
+				item: "minecraft:copper_ingot"
+			}]
+			rewards: [{
+				id: "3B463A63BEBCD3D6"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 5
+			}]
+		}
+	]
 	quest_links: [ ]
 }

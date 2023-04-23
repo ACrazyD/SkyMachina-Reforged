@@ -43,7 +43,7 @@ ServerEvents.recipes(event => {
 
     //Grass Beater
     event.shaped(
-        Item.of('skymachina:grass_beater', 1),
+        Item.of('skymachinatweaks:grass_beater', 1),
         [
             '  p',
             ' p ',

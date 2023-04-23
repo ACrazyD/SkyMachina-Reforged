@@ -1,0 +1,58 @@
+{
+	id: "745820DC78FA7F1F"
+	group: "2E5361F1FF1CBAE8"
+	order_index: 0
+	filename: "copper_age_2"
+	title: "Copper Age"
+	icon: "minecraft:copper_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Just a bit more Copper..."
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Really the shortest Quest Line Here"
+			dependencies: ["0416CFCB050A7538"]
+			id: "1499AF617FEA8115"
+			tasks: [{
+				id: "475F90A56EC6ABB0"
+				type: "item"
+				item: "minecraft:copper_ingot"
+				count: 5L
+			}]
+		}
+		{
+			title: "Minor Upgrades"
+			x: 1.0d
+			y: 0.0d
+			subtitle: "Fairly Small upgrades - increased Drops tho"
+			dependencies: ["1499AF617FEA8115"]
+			id: "338FEB4235FB39B3"
+			tasks: [{
+				id: "4534671B45D7B50C"
+				type: "item"
+				item: {
+					id: "skymachina:copper_rock_smasher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "More yield for the same amount of work"
+			x: 1.5d
+			y: -1.0d
+			dependencies: ["338FEB4235FB39B3"]
+			id: "24961C0F25FEB58C"
+			tasks: [{
+				id: "378F0159B10E58CE"
+				type: "item"
+				item: "minecraft:blast_furnace"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
