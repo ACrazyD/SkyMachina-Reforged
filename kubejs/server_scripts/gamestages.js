@@ -3,7 +3,7 @@ console.info('Im am the sentient file... Fear me')
 BlockEvents.rightClicked(event => {
     const { player, server } = event
     if (event.block.hasTag('minecraft:dirt')) {
-        if (event.player.isCrouching() && player.mainHandItem === 'skymachina:grass_beater' && player.offHandItem === 'minecraft:air') {
+        if (player.mainHandItem === 'skymachinatweaks:grass_beater' && player.offHandItem === 'minecraft:air') {
             server.runCommandSilent(`execute at @p run loot spawn ${event.block.x} ${event.block.y} ${event.block.z} loot skymachina:ores/grass_t1`)
         }
     }

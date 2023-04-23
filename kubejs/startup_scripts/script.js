@@ -47,6 +47,7 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:silver_filings')
 	event.create('skymachina:nickel_filings')
 	event.create('skymachina:bauxite_filings')
+
 	//Duh Chunks
 	event.create('skymachina:iron_chunk')
 	event.create('skymachina:copper_chunk')
@@ -59,12 +60,14 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:silver_chunk')
 	event.create('skymachina:nickel_chunk')
 	event.create('skymachina:bauxite_chunk')
+
 	//Duh Gems
 	event.create('skymachina:diamond_fragments')
 	event.create('skymachina:emerald_fragments')
 	event.create('skymachina:coal_fragments')
 	event.create('skymachina:redstone_grains')
 	event.create('skymachina:skystone_grains')
+
 	//New Named
 	event.create('skymachina:debris_fragments')
 	event.create('skymachina:urainite_fragments')
@@ -79,14 +82,9 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:sulfur_powder')
 	// I dont know what to name these items atm... (EMPTY)
 	
-	
-	
-	
-
 	//Misc
 	event.create('skymachina:silt')
 	event.create('skymachina:sky_token')
-
 
 	//WorldEdit Wands
 	event.create('skymachina:world_edit_wand')
@@ -102,7 +100,6 @@ StartupEvents.registry('block', event => {
 	event.create('skymachina:t5_ore_catalyst').material('stone').hardness(1.0).displayName('Tier 5 Ore Catalyst');
 	event.create('skymachina:t6_ore_catalyst').material('stone').hardness(1.0).displayName('Tier 6 Ore Catalyst');
 	event.create('skymachina:t7_ore_catalyst').material('stone').hardness(1.0).displayName('Tier 7 Ore Catalyst');
-
 })
 
 StartupEvents.registry('fluid', event => {
@@ -113,12 +110,32 @@ StartupEvents.registry('fluid', event => {
 
 
 ItemEvents.modification(event => {
-
 	event.modify('minecraft:oak_leaves', item => {item.burnTime = 100})
 	event.modify('minecraft:birch_leaves', item => {item.burnTime = 100})
 	event.modify('minecraft:jungle_leaves', item => {item.burnTime = 100})
 	event.modify('minecraft:dark_oak_leaves', item => {item.burnTime = 100})
 	event.modify('minecraft:acacia_leaves', item => {item.burnTime = 100})
 	event.modify('minecraft:spruce_leaves', item => {item.burnTime = 100})
+})
 
+ServerEvents.tags('item', event => {
+	//Removing Vanilla Logs
+	event.remove('minecraft:logs', 'densetrees:dence_oak_log')
+	event.remove('minecraft:logs', 'densetrees:dence_spruce_log')
+	event.remove('minecraft:logs', 'densetrees:dence_birch_log')
+	event.remove('minecraft:logs', 'densetrees:dence_jungle_log')
+	event.remove('minecraft:logs', 'densetrees:dence_acacia_log')
+	event.remove('minecraft:logs', 'densetrees:dence_dark_oak_log')
+	event.remove('minecraft:logs', 'densetrees:dence_mangrove_log')
+
+	//Adding a custom tag for things later
+	event.add('forge:dense_logs', 'densetrees:dence_oak_log')
+	event.add('forge:dense_logs', 'densetrees:dence_spruce_log')
+	event.add('forge:dense_logs', 'densetrees:dence_birch_log')
+	event.add('forge:dense_logs', 'densetrees:dence_jungle_log')
+	event.add('forge:dense_logs', 'densetrees:dence_acacia_log')
+	event.add('forge:dense_logs', 'densetrees:dence_dark_oak_log')
+	event.add('forge:dense_logs', 'densetrees:dence_mangrove_log')
+	event.add('forge:dense_logs', 'densetrees:dence_crison_stem')
+	event.add('forge:dense_logs', 'densetrees:dence_warped_stem')
 })
