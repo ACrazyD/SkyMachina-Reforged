@@ -11,7 +11,7 @@ BlockEvents.rightClicked(event => {
 
 
 
-//Recipe Staging (Credit EnigmaQuip for the assist )
+//Recipe Staging
 ServerEvents.recipes(event => {
 const $CraftingRecipe = Java.loadClass('net.minecraft.world.item.crafting.CraftingRecipe')
 function addStageByMod(stage, modid) {
@@ -23,26 +23,62 @@ function addStageByMod(stage, modid) {
 }
 
 //(stage, modid)
-
+//Primary Mod Stages
 addStageByMod("thermal", "thermal")
+addStageByMod("apotheosis", "apotheosis")
+addStageByMod("sophisticatedbackpacks", "sophisticatedbackpacks")
+addStageByMod("sophisticatedstorage", "sophisticatedstorage")
+addStageByMod("farmersdelight", "farmersdelight")
+addStageByMod("intergrated_dynamics", "intergrateddynamics")
+addStageByMod("computercraft", "computercraft")
 addStageByMod("ae2", "ae2")
 addStageByMod("mekanism", "mekanism")
 addStageByMod("waystones", "waystones")
 addStageByMod("powah", "powah")
-//  addStageByMod("compressium", "compressium")
 addStageByMod("constructionwand", "construction_wand")
-addStageByMod("nether", "nether")
-addStageByMod("debris", "debris")
 addStageByMod("framed_blocks", "framedblocks")
 addStageByMod("flux_networks", "fluxnetworks")
 addStageByMod("xnet", "xnet")
-addStageByMod("ender_storage", "enderstorage")
+addStageByMod("xnet", "rftoolsbase")
+addStageByMod("ender_storage", "endertanks")
+addStageByMod("ender_storage", "enderchests")
 addStageByMod("chipped", "chipped")
+addStageByMod("create", "create")
+addStageByMod("immersive_engineering", "immersiveengineering")
+addStageByMod("domum_ornamentum", "domum_ornamentum")
+addStageByMod("alchemistry", "alchemistry")
+addStageByMod("botania", "botania")
 
+
+//Secondary Mod Stages
 addStageByMod("ae2", "appmek")
 addStageByMod("ae2", "ae2wtlib")
 addStageByMod("ae2", "aeinfinitybooster")
 addStageByMod("ae2", "ae2things")
+
+addStageByMod("mekanism", "solarpanels")
+addStageByMod("mekanism", "mekanismgenerators")
+addStageByMod("mekanism", "mekanismadditions")
+
+addStageByMod("create", "extendedflywheels")
+addStageByMod("create", "create_central_kitchen")
+
+addStageByMod("intergrated_dynamics", "intergratedtunnels")
+addStageByMod("intergrated_dynamics", "intergratedterminals")
+
+addStageByMod("alchemistry", "chemlib")
+
+addStageByMod("botania", "botanicadds")
+
+addStageByMod("farmersdelight", "create_central_kitchen")
+addStageByMod("farmersdelight", "farmersrespite")
+
+
+
+
+//Misc Stages
+addStageByMod("nether", "nether")
+addStageByMod("debris", "debris")
 
 
 })
