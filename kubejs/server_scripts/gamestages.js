@@ -61,6 +61,7 @@ addStageByMod("mekanism", "mekanismgenerators")
 addStageByMod("mekanism", "mekanismadditions")
 
 addStageByMod("create", "extendedflywheels")
+addStageByMod("create", "createaddition")
 addStageByMod("create", "create_central_kitchen")
 
 addStageByMod("intergrated_dynamics", "intergratedtunnels")

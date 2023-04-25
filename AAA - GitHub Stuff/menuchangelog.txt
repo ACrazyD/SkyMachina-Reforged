@@ -1,0 +1,4 @@
+-= V0.0.6 =-
+- Updated KubeJS scripts
+- Removed CreateEncased
+- Updated A Few Mods.
