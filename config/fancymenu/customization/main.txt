@@ -82,7 +82,7 @@ customization {
 }
 
 customization {
-  orientation = bottom-right
+  orientation = mid-left
   enable_scrolling = true
   shadow = true
   scale = 1.0
@@ -91,12 +91,12 @@ customization {
   case_mode = normal
   source_mode = web
   line_spacing = 1
-  x = -210
-  width = 210
+  x = 0
+  width = 349
   action = custom_layout_element:fancymenu_customization_item_text
   actionid = 0d4d6a8f-99e6-46f8-83e0-af07a4b9dfaa1682459880089
-  y = -180
+  y = -184
   alignment = left
-  height = 155
+  height = 376
 }
 

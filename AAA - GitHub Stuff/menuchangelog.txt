@@ -3,7 +3,7 @@
 - Fixed tags on Dense Logs (Typo, Im "Smart") 
 - Fixed Porcelain and updated quests from server. 
 - Part of T3 OreCatalyst is readyish. 
-- Removed Create:Encased (Tired of Update Errors) 
+- Removed CreateEncased (Tired of Update Errors) 
 - Updated Yeet/Gamestage List 
 - Adding First Notes And Pulp Items 
 - Fixed Custom items (Again) 
