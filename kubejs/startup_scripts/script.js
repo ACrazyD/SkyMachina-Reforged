@@ -97,7 +97,7 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:pulp').texture("minecraft:item/gunpowder").color(0, 0x9A4D00).tooltip("§2Used to make paper§r")
 
 	event.create('skymachina:blank_research_notes').texture("minecraft:item/paper").color(0, 0x9A4D00).tooltip("§2Used to make research notes§r")
-	event.create('skymachina:research_notes_create').displayName('Research Notes: Create').texture("minecraft:item/enchanted_books").color(0, 0x9A4D00).glow(true).tooltip("§2Unlocks Create§r")
+	event.create('skymachina:research_notes_create').displayName('Research Notes: Create').texture("minecraft:item/enchanted_book").color(0, 0xf542e3).glow(true).tooltip("§2Unlocks Create§r")
 
 })
 
