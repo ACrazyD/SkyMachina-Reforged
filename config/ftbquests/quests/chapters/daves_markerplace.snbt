@@ -7,25 +7,48 @@
 	icon: "skymachina:sky_token"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [{
-		icon: "minecraft:oak_sapling"
-		x: 0.0d
-		y: 0.0d
-		subtitle: "Costly Mistake. Game Ending really..."
-		description: ["Naa we get it, mistakes happen, we can give you but one more chance!."]
-		optional: true
-		id: "074B1E04BD47BBBB"
-		tasks: [{
-			id: "7113CA2F9CD28A3C"
-			type: "checkmark"
-			title: "Lost Your Tree?"
-		}]
-		rewards: [{
-			id: "4FE57726CA2DEF11"
-			type: "item"
-			item: "minecraft:oak_sapling"
-			count: 5
-		}]
-	}]
+	quests: [
+		{
+			icon: "minecraft:oak_sapling"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Costly Mistake. Game Ending really..."
+			description: ["Naa we get it, mistakes happen, we can give you but one more chance!."]
+			optional: true
+			id: "074B1E04BD47BBBB"
+			tasks: [{
+				id: "7113CA2F9CD28A3C"
+				type: "checkmark"
+				title: "Lost Your Tree?"
+			}]
+			rewards: [{
+				id: "4FE57726CA2DEF11"
+				type: "item"
+				item: "minecraft:oak_sapling"
+				count: 5
+			}]
+		}
+		{
+			title: "Sapling Lootbox"
+			icon: "minecraft:birch_sapling"
+			x: 1.0d
+			y: 0.0d
+			can_repeat: true
+			id: "634B6C9D8852A9A2"
+			tasks: [{
+				id: "66557878309F1CB6"
+				type: "item"
+				item: "skymachina:sky_token"
+				count: 10L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "644838BFA92066E5"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4160997007588159421L
+			}]
+		}
+	]
 	quest_links: [ ]
 }

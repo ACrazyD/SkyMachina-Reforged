@@ -1,0 +1,76 @@
+{
+	id: "0EE242B5F0917CA5"
+	group: "2E5361F1FF1CBAE8"
+	order_index: 1
+	filename: "iron_age"
+	title: "Iron Age"
+	icon: "minecraft:iron_ingot"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "729B6097D38FD7D7"
+			tasks: [{
+				id: "022236E223EDFEC0"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "327FE5DD7473BC99"
+			tasks: [{
+				id: "2FC56D3B03F48318"
+				type: "item"
+				item: {
+					id: "skymachina:iron_rock_smasher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "54FF72C17762D0A0"
+			tasks: [{
+				id: "06B2E9AF3D088FDA"
+				type: "item"
+				item: "minecraft:iron_block"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "4AC532245F4D9E87"
+			tasks: [{
+				id: "6B60E056B58754A2"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "576791DD0F1720FE"
+			tasks: [
+				{
+					id: "5D83D7168D44F1F3"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "4EE1F1EDDB33CB85"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

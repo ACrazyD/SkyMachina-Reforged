@@ -19,7 +19,7 @@
 				id: "475F90A56EC6ABB0"
 				type: "item"
 				item: "minecraft:copper_ingot"
-				count: 5L
+				count: 3L
 			}]
 		}
 		{
@@ -51,6 +51,26 @@
 				id: "378F0159B10E58CE"
 				type: "item"
 				item: "minecraft:blast_furnace"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "6037C5103DCD61E3"
+			tasks: [{
+				id: "6157D299155E904A"
+				type: "item"
+				item: "skymachinatweaks:unfired_crucible"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			id: "5B80CDD68113A677"
+			tasks: [{
+				id: "3254767EF69E2593"
+				type: "item"
+				item: "skymachinatweaks:crucible"
 			}]
 		}
 	]

@@ -1,0 +1,11 @@
+{
+	id: "72FBAD40130B6341"
+	group: "78E0DF660891B501"
+	order_index: 3
+	filename: "powah"
+	title: "Powah"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

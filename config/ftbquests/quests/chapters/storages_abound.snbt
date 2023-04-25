@@ -1,0 +1,11 @@
+{
+	id: "7F7064D12416FA19"
+	group: "5F8AE2F4CEEA18BA"
+	order_index: 1
+	filename: "storages_abound"
+	title: "Storages Abound"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -86,7 +86,7 @@ StartupEvents.registry('item', event => {
 	//Misc
 	event.create('skymachina:silt')
 	event.create('skymachina:sky_token')
-	event.create('skymachina:porcelain_clay').texture('item/minecraft:clay_ball').color(0, 0xd9cbca)
+	event.create('skymachina:porcelain_clay').texture('minecraft:item/clay_ball').color(0, 0xd9cbca)
 
 	//WorldEdit Wands
 	event.create('skymachina:world_edit_wand')

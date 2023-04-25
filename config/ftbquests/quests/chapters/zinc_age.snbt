@@ -1,0 +1,11 @@
+{
+	id: "27F89D8897B45003"
+	group: "2E5361F1FF1CBAE8"
+	order_index: 2
+	filename: "zinc_age"
+	title: "Zinc Age"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "314F3E9E1E26BF57"
+	group: "5F8AE2F4CEEA18BA"
+	order_index: 0
+	filename: "automation"
+	title: "Automation!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

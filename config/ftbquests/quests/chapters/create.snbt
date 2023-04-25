@@ -1,0 +1,11 @@
+{
+	id: "31A0FFB381D3704D"
+	group: "78E0DF660891B501"
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

@@ -1,0 +1,11 @@
+{
+	id: "0947B21D85D1C841"
+	group: "78E0DF660891B501"
+	order_index: 5
+	filename: "flowerpower"
+	title: "FlowerPower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

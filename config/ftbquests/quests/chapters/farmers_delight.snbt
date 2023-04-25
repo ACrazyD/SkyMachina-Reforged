@@ -1,0 +1,11 @@
+{
+	id: "2BC4A2F02C5F0578"
+	group: "78E0DF660891B501"
+	order_index: 4
+	filename: "farmers_delight"
+	title: "Farmers Delight"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}
