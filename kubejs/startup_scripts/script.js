@@ -65,6 +65,7 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:diamond_fragments')
 	event.create('skymachina:emerald_fragments')
 	event.create('skymachina:coal_fragments').burnTime(100)
+	event.create('skymachina:charcoal_fragments').burnTime(100)
 	event.create('skymachina:redstone_grains')
 	event.create('skymachina:skystone_grains')
 
@@ -117,8 +118,6 @@ ItemEvents.modification(event => {
 	event.modify('minecraft:dark_oak_leaves', i => i.burnTime = 100)
 	event.modify('minecraft:acacia_leaves', i => i.burnTime = 100)
 	event.modify('minecraft:spruce_leaves', i => i.burnTime = 100)
-
-	event.modify('skymachina:coal_fragments', i => i.burntime = 100)
 })
 
 ServerEvents.tags('item', event => {
