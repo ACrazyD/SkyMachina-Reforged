@@ -64,7 +64,7 @@ StartupEvents.registry('item', event => {
 	//Duh Gems
 	event.create('skymachina:diamond_fragments')
 	event.create('skymachina:emerald_fragments')
-	event.create('skymachina:coal_fragments')
+	event.create('skymachina:coal_fragments').burnTime(100)
 	event.create('skymachina:redstone_grains')
 	event.create('skymachina:skystone_grains')
 
@@ -85,6 +85,7 @@ StartupEvents.registry('item', event => {
 	//Misc
 	event.create('skymachina:silt')
 	event.create('skymachina:sky_token')
+	event.create('skymachina:porcelain_clay').texture('minecraft:clay_ball').color(0, 0xd9cbca)
 
 	//WorldEdit Wands
 	event.create('skymachina:world_edit_wand')
@@ -110,12 +111,14 @@ StartupEvents.registry('fluid', event => {
 
 
 ItemEvents.modification(event => {
-	event.modify('minecraft:oak_leaves', item => {item.burnTime = 100})
-	event.modify('minecraft:birch_leaves', item => {item.burnTime = 100})
-	event.modify('minecraft:jungle_leaves', item => {item.burnTime = 100})
-	event.modify('minecraft:dark_oak_leaves', item => {item.burnTime = 100})
-	event.modify('minecraft:acacia_leaves', item => {item.burnTime = 100})
-	event.modify('minecraft:spruce_leaves', item => {item.burnTime = 100})
+	event.modify('minecraft:oak_leaves', i => i.burnTime = 100)
+	event.modify('minecraft:birch_leaves', i => i.burnTime = 100)
+	event.modify('minecraft:jungle_leaves', i => i.burnTime = 100)
+	event.modify('minecraft:dark_oak_leaves', i => i.burnTime = 100)
+	event.modify('minecraft:acacia_leaves', i => i.burnTime = 100)
+	event.modify('minecraft:spruce_leaves', i => i.burnTime = 100)
+
+	event.modify('skymachina:coal_fragments', i => i.burntime = 100)
 })
 
 ServerEvents.tags('item', event => {

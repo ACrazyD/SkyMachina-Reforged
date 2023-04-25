@@ -11,6 +11,44 @@ BlockEvents.rightClicked(event => {
 
 
 
+//Recipe Staging (Credit EnigmaQuip for the assist )
+ServerEvents.recipes(event => {
+const $CraftingRecipe = Java.loadClass('net.minecraft.world.item.crafting.CraftingRecipe')
+function addStageByMod(stage, modid) {
+   event.forEachRecipe({ mod: modid }, recipe => {
+        if (recipe.originalRecipe instanceof $CraftingRecipe) {
+            recipe.stage(stage)
+        }
+    })
+}
+
+//(stage, modid)
+
+addStageByMod("thermal", "thermal")
+addStageByMod("ae2", "ae2")
+addStageByMod("mekanism", "mekanism")
+addStageByMod("waystones", "waystones")
+addStageByMod("powah", "powah")
+//  addStageByMod("compressium", "compressium")
+addStageByMod("constructionwand", "construction_wand")
+addStageByMod("nether", "nether")
+addStageByMod("debris", "debris")
+addStageByMod("framed_blocks", "framedblocks")
+addStageByMod("flux_networks", "fluxnetworks")
+addStageByMod("xnet", "xnet")
+addStageByMod("ender_storage", "enderstorage")
+addStageByMod("chipped", "chipped")
+
+addStageByMod("ae2", "appmek")
+addStageByMod("ae2", "ae2wtlib")
+addStageByMod("ae2", "aeinfinitybooster")
+addStageByMod("ae2", "ae2things")
+
+
+})
+
+
+
 // Ore Breaking Events
 BlockEvents.broken(event => {
     const { server, player } = event;

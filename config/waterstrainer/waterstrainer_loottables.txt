@@ -15,8 +15,8 @@
 <add> <strainer>strainer_survivalist</strainer> <chance>20</chance> <item>minecraft:stick</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>15</chance> <item>minecraft:clay_ball</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>13</chance> <item>minecraft:gravel</item> </add>
+<add> <strainer>strainer_survivalist</strainer> <chance>10</chance> <item>skymachina:coal_fragments</item> </add>
 <add> <strainer>strainer_survivalist</strainer> <chance>1</chance> <item>minecraft:iron_nugget</item> </add>
-<add> <strainer>strainer_survivalist</strainer> <chance>1</chance> <item>minecraft:gold_nugget</item> </add>
 
 <copy> <child>strainer_survivalist_solid</child> <parent>strainer_survivalist</parent> </copy>
 <copy> <child>strainer_survivalist_reinforced</child> <parent>strainer_survivalist</parent> </copy>

@@ -24,6 +24,44 @@ ServerEvents.recipes(event => {
         }
     )
 
+    //Crucible
+    event.shaped(
+        Item.of('skymachinatweaks:unfired_crucible', 1),
+        [
+            'c c',
+            'c c',
+            'ccc'
+        ],{
+            c: 'skymachina:porcelain_clay'
+        }
+
+    )
+    //porcelain_clay
+    event.shaped(
+        Item.of('skymachina:porcelain_clay', 2),
+        [
+            `cb`
+        ],{
+            c: '#forge:clay',
+            b: 'minecraft:bone_meal'
+        }
+    )
+
+
+    event.shaped(
+        Item.of('minecraft:blast_furnace', 1),
+        [
+            `ccc`,
+            `cfc`,
+            `SSS`
+        ],{
+            c: '#forge:plates/copper',
+            f: 'minecraft:furnace',
+            S: '#chipped:smooth_stone'
+
+        }
+    )
+
     //Ore Catalyst
     event.shaped(
         Item.of('skymachina:t1_ore_catalyst', 1),
