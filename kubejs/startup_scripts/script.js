@@ -2,8 +2,6 @@
 
 console.info('Dont mind me, just createing some new things...')
 
-Platform.mods.skymachina.name = 'SkyMachina'
-
 StartupEvents.registry('item', event => {
 
 	//Tools - RockSmashers+Spades
@@ -94,6 +92,13 @@ StartupEvents.registry('item', event => {
 	event.create('skymachina:world_edit_wand')
 	event.create('skymachina:world_edit_brush')
 	event.create('skymachina:world_edit_nav')
+
+	//Research Notes & Stuff
+	event.create('skymachina:pulp').texture("minecraft:item/gunpowder").color(0, 0x9A4D00).tooltip("§2Used to make paper§r")
+
+	event.create('skymachina:blank_research_notes').texture("minecraft:item/paper").color(0, 0x9A4D00).tooltip("§2Used to make research notes§r")
+	event.create('skymachina:research_notes_create').displayName('Research Notes: Create').texture("minecraft:item/enchanted_books").color(0, 0x9A4D00).glow(true).tooltip("§2Unlocks Create§r")
+
 })
 
 StartupEvents.registry('block', event => {

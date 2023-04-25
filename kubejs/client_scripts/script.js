@@ -46,11 +46,11 @@ ItemEvents.tooltip((event) => {
 
 
 REIEvents.removeCategories(event => {
-    event.yeet("minecraft:plugins/tag")
-    event.yeet("roughlyenoughitems:plugins/infomation")
-    event.yeet("create:automated_shaped")
-    event.yeet("immersiveengineering:bottling_machine")
-    event.yeet("ftbquests:quest")
+    event.yeet("minecraft:plugins/tag");
+    event.yeet("roughlyenoughitems:plugins/infomation");
+    event.yeet("create:automated_shaped");
+    event.yeet("immersiveengineering:bottling_machine");
+    event.yeet("ftbquests:quest");
 
 
 })
