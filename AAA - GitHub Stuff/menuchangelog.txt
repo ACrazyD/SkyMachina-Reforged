@@ -1,11 +1,11 @@
 -= V0.0.7 =-
-- Updates - New Badges/Wares in Villages - ACrazyD
-- Fixed tags on Dense Logs (Typo, Im "Smart") - ACrazyD
-- Fixed Porcelain and updated quests from server. - ACrazyD
-- Part of T3 OreCatalyst is readyish. - ACrazyD
-- Removed Create:Encased (Tired of Update Errors) - ACrazyD
-- Updated Yeet/Gamestage List - ACrazyD
-- Adding First Notes And Pulp Items - ACrazyD
-- Fixed Custom items (Again) - ACrazyD
-- Added a ToDo List - ACrazyD
-- Updated Some Stuff - ACrazyD
+- Updates - New Badges/Wares in Villages 
+- Fixed tags on Dense Logs (Typo, Im "Smart") 
+- Fixed Porcelain and updated quests from server. 
+- Part of T3 OreCatalyst is readyish. 
+- Removed Create:Encased (Tired of Update Errors) 
+- Updated Yeet/Gamestage List 
+- Adding First Notes And Pulp Items 
+- Fixed Custom items (Again) 
+- Added a ToDo List 
+- Updated Some Stuff 
