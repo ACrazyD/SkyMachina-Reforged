@@ -2,6 +2,8 @@
 
 console.info('Dont mind me, just createing some new things...')
 
+Platform.mods.skymachina.name = 'SkyMachina'
+
 StartupEvents.registry('item', event => {
 
 	//Tools - RockSmashers+Spades
@@ -138,6 +140,6 @@ ServerEvents.tags('item', event => {
 	event.add('forge:dense_logs', 'densetrees:dense_acacia_log')
 	event.add('forge:dense_logs', 'densetrees:dense_dark_oak_log')
 	event.add('forge:dense_logs', 'densetrees:dense_mangrove_log')
-	event.add('forge:dense_logs', 'densetrees:dense_crison_stem')
+	event.add('forge:dense_logs', 'densetrees:dense_crimson_stem')
 	event.add('forge:dense_logs', 'densetrees:dense_warped_stem')
 })
