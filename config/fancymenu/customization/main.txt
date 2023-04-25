@@ -1,0 +1,102 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 42e201f3-4b45-4796-9574-c95360bf8f191682459864583
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 6dd350b2-c98d-4194-bbd8-d0ac00561a511682459864600
+  y = 487
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 41284dd8-6693-48e7-9900-96100ec6dfa51682459864600
+  y = 509
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 5720c1f4-1137-453b-bdcb-a1fdec4ee23c1682459864600
+  y = 232
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 26080de3-8b69-4278-af2c-3548bf1304171682459864600
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = c8dafbd3-e430-4dfb-8f7d-b082388ff7711682459864600
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = https://raw.githubusercontent.com/ACrazyD/SkyMachina-Reforged/main/AAA%20-%20GitHub%20Stuff/menuchangelog.txt
+  text_border = 0
+  case_mode = normal
+  source_mode = web
+  line_spacing = 1
+  x = -210
+  width = 210
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0d4d6a8f-99e6-46f8-83e0-af07a4b9dfaa1682459880089
+  y = -180
+  alignment = left
+  height = 155
+}
+
