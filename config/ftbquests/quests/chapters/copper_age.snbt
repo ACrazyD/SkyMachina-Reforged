@@ -45,7 +45,14 @@
 			tasks: [{
 				id: "1FC4F58A7970D4B0"
 				type: "item"
-				item: "densetrees:dense_oak_log"
+				title: "Any #forge:dense_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dense_logs"
+					}
+				}
 			}]
 			rewards: [{
 				id: "58984AA6E3157174"

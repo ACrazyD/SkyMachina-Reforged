@@ -86,7 +86,7 @@ StartupEvents.registry('item', event => {
 	//Misc
 	event.create('skymachina:silt')
 	event.create('skymachina:sky_token')
-	event.create('skymachina:porcelain_clay').texture('minecraft:clay_ball').color(0, 0xd9cbca)
+	event.create('skymachina:porcelain_clay').texture('item/minecraft:clay_ball').color(0, 0xd9cbca)
 
 	//WorldEdit Wands
 	event.create('skymachina:world_edit_wand')
@@ -122,22 +122,22 @@ ItemEvents.modification(event => {
 
 ServerEvents.tags('item', event => {
 	//Removing Vanilla Logs
-	event.remove('minecraft:logs', 'densetrees:dence_oak_log')
-	event.remove('minecraft:logs', 'densetrees:dence_spruce_log')
-	event.remove('minecraft:logs', 'densetrees:dence_birch_log')
-	event.remove('minecraft:logs', 'densetrees:dence_jungle_log')
-	event.remove('minecraft:logs', 'densetrees:dence_acacia_log')
-	event.remove('minecraft:logs', 'densetrees:dence_dark_oak_log')
-	event.remove('minecraft:logs', 'densetrees:dence_mangrove_log')
+	event.remove('minecraft:logs', 'densetrees:dense_oak_log')
+	event.remove('minecraft:logs', 'densetrees:dense_spruce_log')
+	event.remove('minecraft:logs', 'densetrees:dense_birch_log')
+	event.remove('minecraft:logs', 'densetrees:dense_jungle_log')
+	event.remove('minecraft:logs', 'densetrees:dense_acacia_log')
+	event.remove('minecraft:logs', 'densetrees:dense_dark_oak_log')
+	event.remove('minecraft:logs', 'densetrees:dense_mangrove_log')
 
 	//Adding a custom tag for things later
-	event.add('forge:dense_logs', 'densetrees:dence_oak_log')
-	event.add('forge:dense_logs', 'densetrees:dence_spruce_log')
-	event.add('forge:dense_logs', 'densetrees:dence_birch_log')
-	event.add('forge:dense_logs', 'densetrees:dence_jungle_log')
-	event.add('forge:dense_logs', 'densetrees:dence_acacia_log')
-	event.add('forge:dense_logs', 'densetrees:dence_dark_oak_log')
-	event.add('forge:dense_logs', 'densetrees:dence_mangrove_log')
-	event.add('forge:dense_logs', 'densetrees:dence_crison_stem')
-	event.add('forge:dense_logs', 'densetrees:dence_warped_stem')
+	event.add('forge:dense_logs', 'densetrees:dense_oak_log')
+	event.add('forge:dense_logs', 'densetrees:dense_spruce_log')
+	event.add('forge:dense_logs', 'densetrees:dense_birch_log')
+	event.add('forge:dense_logs', 'densetrees:dense_jungle_log')
+	event.add('forge:dense_logs', 'densetrees:dense_acacia_log')
+	event.add('forge:dense_logs', 'densetrees:dense_dark_oak_log')
+	event.add('forge:dense_logs', 'densetrees:dense_mangrove_log')
+	event.add('forge:dense_logs', 'densetrees:dense_crison_stem')
+	event.add('forge:dense_logs', 'densetrees:dense_warped_stem')
 })
