@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
 
 
     event.recipes.create.milling([Item.of('minecraft:sand').withChance(0.4), 'minecraft:flint'], '#forge:gravel')
-    event.recipes.create.milling([Item.of('create:crushed_iron_ore').withChance(0.6), Item.of('minecraft:gravel').withChance(0.3)], 'skymachina:t1_mineral_deposit')
+    event.recipes.create.milling([Item.of('create:crushed_copper_ore').withChance(0.6), Item.of('minecraft:gravel').withChance(0.3)], 'skymachina:t1_mineral_deposit')
+    event.recipes.create.milling([Item.of('create:crushed_iron_ore').withChance(0.6), Item.of('minecraft:gravel').withChance(0.3)], 'skymachina:t2_mineral_deposit')
 
     //rock cluster
     event.recipes.create.milling([

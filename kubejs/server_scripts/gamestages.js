@@ -65,6 +65,7 @@ addStageByMod("create", "create_central_kitchen")
 
 addStageByMod("intergrated_dynamics", "intergratedtunnels")
 addStageByMod("intergrated_dynamics", "intergratedterminals")
+addStageByMod("intergrated_dynamics", "intergratednbt")
 
 addStageByMod("alchemistry", "chemlib")
 

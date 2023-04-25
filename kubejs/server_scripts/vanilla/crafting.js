@@ -74,7 +74,35 @@ ServerEvents.recipes(event => {
             g: CP('gravel_2'),
             d: CP('diorite_2'),
             G: CP('granite_2'),
+            i: CP('copper_1')
+        }
+    )
+    event.shaped(
+        Item.of('skymachina:t2_ore_catalyst', 1),
+        [
+            'gdg',
+            'GiG',
+            'gdg'
+        ],
+        {
+            g: CP('gravel_2'),
+            d: CP('diorite_2'),
+            G: CP('granite_2'),
             i: CP('iron_1')
+        }
+    )
+    event.shaped(
+        Item.of('skymachina:t3_ore_catalyst', 1),
+        [
+            'gdg',
+            'GiG',
+            'gdg'
+        ],
+        {
+            g: CP('gravel_2'),
+            d: CP('diorite_2'),
+            G: CP('granite_2'),
+            i: 'create:zinc_block'
         }
     )
 
