@@ -85,7 +85,9 @@ customization {
   orientation = mid-left
   enable_scrolling = true
   shadow = true
+  [loading_requirement:fancymenu_loading_requirement_is_window_width][requirement_mode:if][req_id:a639b3b8-3d88-42a0-a9e5-64fa24c9baa11682462789561] = 1920
   scale = 1.0
+  [loading_requirement:fancymenu_loading_requirement_is_window_height][requirement_mode:if][req_id:2542ad64-7045-4f75-9350-a0c0ab4cb5e61682462809193] = 1080
   source = https://raw.githubusercontent.com/ACrazyD/SkyMachina-Reforged/main/AAA%20-%20GitHub%20Stuff/menuchangelog.txt
   text_border = 0
   case_mode = normal

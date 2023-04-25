@@ -1,0 +1,150 @@
+ServerEvents.recipes(event => {
+	event.custom(new Lychee()//cactus bonemealing recipe
+		.recipeBlockInteracting()
+			.withContextual(new LycheeContext().withBlock(new LycheeBlock('air')).offset([,1,]))
+		.inItem('bone_meal')
+		.inBlock(new LycheeBlock('cactus'))
+		.outBlock(new LycheeBlock('cactus'),[,1,])
+	.recipe)
+
+	event.custom(new Lychee()//shears can be used to make sand from gravel and get some iron nuggets as a bonus, unless you are in hard, then you need rain for the iron bonus
+		.recipeBlockClicking()
+		.inItem(Item.of('shears').removeNBT())//ignoreNBT does not work use this instead (kubejs's fualt, not mine)
+		.outDamageItem()
+		.inBlock(new LycheeBlock('gravel'))
+		.outBlock(new LycheeBlock('sand'))
+		.outItem('iron_nugget')
+			.withContextual(new LycheeContext()
+				.or([
+					new LycheeContext().withWeather('rain'),
+					new LycheeContext().withWeather('thunder'),
+					new LycheeContext().not().withDifficulty('hard')
+				])
+				.withChance(0.5)
+			)
+	.recipe)
+
+	event.custom(new Lychee()//herobrine summoning ritual, but makes a giant and only works in deserts instead
+		.recipeItemBurning()
+		.inItem(['quartz','#beacon_payment_items'])
+		.withContextual(new LycheeContext()
+			.withBlock(new LycheeBlock('netherrack')).offset([,-1,])
+			.withBlock(new LycheeBlock('netherrack')).offset([,-2,])
+			.withBlock(new LycheeBlock('gold_block')).offset([,-3,])
+			.withBlock(new LycheeBlock('gold_block')).offset([,-4,])
+			.withBiome('desert')
+		)
+		.outCommand('summon giant')
+	.recipe)
+
+	event.custom(new Lychee()//gravel in water for 1 second will get consumed and maybe produce flint or iron nuggets
+		.recipeItemInside(1)
+		.inItem('gravel')
+		.outItem(Item.of('iron_nugget').withChance(0.125))
+		.outItem(Item.of('flint').withChance(0.25))
+		.setComment('Just like creates gravel washing recipe!')
+		.inBlock(new LycheeBlock('water'))//.withState({level:0}) to make it be a source block
+		.setMaxRepeats(8)
+	.recipe)
+
+	event.custom(new Lychee()//Use an anvil to combine 16 bone meal, 15 levels, and 1 sapling to make an azalea
+		.recipeAnvilCrafting('azalea',15)
+		.inItem('#saplings')
+		.inItem('16x bone_meal')
+	.recipe)
+
+	event.custom(new Lychee()//Drop an anvil on stone to turn it to gravel
+		.recipeBlockCrushing()
+		.inBlock(new LycheeBlock('stone'))
+		.outBlock(new LycheeBlock('gravel'))
+	.recipe)
+
+	event.custom(new Lychee()//test
+		.recipeLightningChanneling()
+		.inItem('flint')
+		.outItem('netherite_ingot')//make the items none flamable
+			.withContextual(new LycheeContext()
+			.withPosition([,{min:200,max:250}])
+		)
+	.recipe)
+
+	event.custom(new Lychee()//blockOut and commandOut('setblock...') dont work becuase of a minecraft bug, not mine, lychee, or kubejs's fualt
+		.recipeItemExploding()
+		.inItem(['diamond','cactus'])
+		.outXp(50)
+	.recipe)
+
+	event.custom(new Lychee()//blockOut and commandOut('setblock...') dont work becuase of a minecraft bug, not mine, lychee, or kubejs's fualt
+		.recipeBlockExploding()
+		.inBlock(new LycheeBlock('coal_block'))
+		.outItem('diamond')
+		.withContextual(new LycheeContext().withChance(0.02))
+	.recipe)
+
+	event.custom(new Lychee()//I recomend that you doing things more simular to the second example, but this is an option
+		.recipeItemExploding()
+		.inItem('brick')
+		.outCallback('set diamond block',function(ctx,value){
+			Utils.getServer().scheduleInTicks(1,callback => {//one tick later
+				ctx.source//get the command runner
+					.level.asKJS()//gets the level
+					.getBlock(
+						Math.floor(
+							ctx.source.position.x()//gets the x position
+						),Math.floor(
+							ctx.source.position.y()
+						),Math.floor(
+							ctx.source.position.z()
+						)
+					)//gets the closets block to where the command was run
+					.set('diamond_block')
+				//how you can figure out this stuff:
+				//1. Get typings
+					//a. Intall ProbeJS
+					//b. Restart your game
+					//c. run the command `/probejs dump` (it takes a while like a couple min the first time)
+					//d. Install VSCode
+					//e. File > Open Folder then select your kubejs folder
+				//2. Scroll up to line 45 (has a smiley face) and replace that with `ctx.`
+				//3. Scroll throught the options and the choose one
+				//4. Trial and error until you figure stuff out
+			})
+			return 0//requiured to return something
+		})
+	.recipe)
+
+	event.custom(new Lychee()
+		.recipeItemBurning()
+		.inItem('coal_block')
+		.outRandom(new Lychee()//choose one of the outputs randomly
+			.outCallback('set diamond block')//this uses the same funciton as the other one ↑
+			.outXp(1000)
+			//you put a ,5 to have 5 of the outputs elected, but that does not make logic here
+		)
+	.recipe)
+
+	event.custom(new Lychee()//this uses the funcition down ↓ there
+		.recipeItemBurning()
+		.inItem('hay_block')
+		.withContextual(new LycheeContext()//will only work if between 1-3 entity are in range
+			.withCallback('hurt;false',{min:1,max:3})//there is also withCommand that functions simularly, but with a command instead of a callback
+		)
+		.outCallback('hurt;true')//everything before the ';' is the name everything after is passed in as value
+	.recipe)
+})
+
+//can be inside of the onEvent('recipes') or outside of it, but if it is outside of it
+registerLycheeCallback('hurt',function(ctx,value){//you can reload this ↓ code with `/kubejs reload server_scripts` instead of `/reload` which is faster
+	level = ctx.source.level.asKJS()
+	position = ctx.source.position
+	count = 0
+	level.getEntitiesWithin(AABB.of(position.x()-2,position.y()-2,position.z()-2,position.x()+2,position.y()+2,position.z()+2)).forEach(entity => {
+		if (entity.living) {
+			if (value === 'true') {
+				entity.attack(value)// Notice: value can only be a float as is defined by minecraft which is praticly the same as a js number
+			}
+			count++
+		}
+	})
+	return count
+})

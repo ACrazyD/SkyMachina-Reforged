@@ -45,7 +45,14 @@
 			tasks: [{
 				id: "1FC4F58A7970D4B0"
 				type: "item"
-				item: "densetrees:dense_oak_log"
+				title: "Any #forge:dense_logs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dense_logs"
+					}
+				}
 			}]
 			rewards: [{
 				id: "58984AA6E3157174"
@@ -60,7 +67,11 @@
 			x: 1.0d
 			y: 0.0d
 			subtitle: "Your gonna use this alot..."
-			description: ["Sneak and rightclick on grass or dirt to gather pebbles."]
+			description: [
+				"Sneak and rightclick on grass or dirt to gather pebbles."
+				"{@pagebreak}"
+				"(new page placeholder text)"
+			]
 			dependencies: ["4931F4DFD98932FA"]
 			id: "19995172D2F806EC"
 			tasks: [{
@@ -146,6 +157,7 @@
 		{
 			x: 1.5d
 			y: -5.0d
+			description: ["sssss"]
 			dependencies: ["19995172D2F806EC"]
 			id: "68ACC26C7F49C11A"
 			tasks: [{
@@ -231,6 +243,13 @@
 			title: "Chunky"
 			x: 4.5d
 			y: 0.0d
+			description: [
+				"We Are Test"
+				"{@pagebreak}"
+				"What are we testing?"
+				"{@pagebreak}"
+				"Not a clue"
+			]
 			dependencies: ["2EC2C4D014CECB0C"]
 			id: "3FE9D940B012D8D0"
 			tasks: [{
