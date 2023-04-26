@@ -29,7 +29,7 @@ addStageByMod("apotheosis", "apotheosis")
 addStageByMod("sophisticatedbackpacks", "sophisticatedbackpacks")
 addStageByMod("sophisticatedstorage", "sophisticatedstorage")
 addStageByMod("farmersdelight", "farmersdelight")
-addStageByMod("intergrated_dynamics", "intergrateddynamics")
+addStageByMod("integrated_dynamics", "integrateddynamics")
 addStageByMod("computercraft", "computercraft")
 addStageByMod("ae2", "ae2")
 addStageByMod("mekanism", "mekanism")
@@ -64,9 +64,10 @@ addStageByMod("create", "extendedflywheels")
 addStageByMod("create", "createaddition")
 addStageByMod("create", "create_central_kitchen")
 
-addStageByMod("intergrated_dynamics", "intergratedtunnels")
-addStageByMod("intergrated_dynamics", "intergratedterminals")
-addStageByMod("intergrated_dynamics", "intergratednbt")
+addStageByMod("integrated_dynamics", "integratedtunnels")
+addStageByMod("integrated_dynamics", "integratedterminals")
+addStageByMod("integrated_dynamics", "integratednbt")
+addStageByMod("integrated_dynamics", "integratedcrafting")
 
 addStageByMod("alchemistry", "chemlib")
 
@@ -75,12 +76,8 @@ addStageByMod("botania", "botanicadds")
 addStageByMod("farmersdelight", "create_central_kitchen")
 addStageByMod("farmersdelight", "farmersrespite")
 
-
-
-
 //Misc Stages
-addStageByMod("nether", "nether")
-addStageByMod("debris", "debris")
+
 
 
 })
