@@ -87,7 +87,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.0d
 			y: -1.0d
 			dependencies: ["19995172D2F806EC"]
 			id: "740CED1D745BD0F0"
@@ -104,77 +104,8 @@
 			}]
 		}
 		{
-			x: 1.5d
-			y: -2.0d
-			dependencies: ["19995172D2F806EC"]
-			id: "40F569173796CA46"
-			tasks: [{
-				id: "2141E30CA6034200"
-				type: "item"
-				item: "minecraft:granite"
-			}]
-			rewards: [{
-				id: "4CD4365FCD380183"
-				type: "item"
-				item: "skymachina:sky_token"
-				count: 5
-			}]
-		}
-		{
-			x: 1.5d
-			y: -3.0d
-			dependencies: ["19995172D2F806EC"]
-			id: "1D8F78F0D34FD66A"
-			tasks: [{
-				id: "6D37762F189D6D23"
-				type: "item"
-				item: "minecraft:diorite"
-			}]
-			rewards: [{
-				id: "14BE8131393DA1B4"
-				type: "item"
-				item: "skymachina:sky_token"
-				count: 5
-			}]
-		}
-		{
-			x: 1.5d
-			y: -4.0d
-			dependencies: ["19995172D2F806EC"]
-			id: "1CD21FA65C45E4C3"
-			tasks: [{
-				id: "5BAFD4E6AF793E8B"
-				type: "item"
-				item: "minecraft:andesite"
-			}]
-			rewards: [{
-				id: "26238D873C833E56"
-				type: "item"
-				item: "skymachina:sky_token"
-				count: 5
-			}]
-		}
-		{
-			x: 1.5d
-			y: -5.0d
-			description: ["sssss"]
-			dependencies: ["19995172D2F806EC"]
-			id: "68ACC26C7F49C11A"
-			tasks: [{
-				id: "3FC2F18E3AA9D765"
-				type: "item"
-				item: "minecraft:dirt"
-			}]
-			rewards: [{
-				id: "5772D9CDB99CEEB2"
-				type: "item"
-				item: "skymachina:sky_token"
-				count: 5
-			}]
-		}
-		{
 			title: "Lets Get Smashin"
-			x: 2.5d
+			x: 3.0d
 			y: 0.0d
 			subtitle: "Your gonna make more of these..."
 			description: ["Break Cobblestone to get many things..."]
@@ -215,7 +146,7 @@
 		}
 		{
 			title: "Man these are small"
-			x: 3.5d
+			x: 4.0d
 			y: 0.0d
 			dependencies: ["7A4415305640E917"]
 			id: "2EC2C4D014CECB0C"
@@ -241,7 +172,7 @@
 		}
 		{
 			title: "Chunky"
-			x: 4.5d
+			x: 5.0d
 			y: 0.0d
 			description: [
 				"We Are Test"
@@ -266,7 +197,7 @@
 		}
 		{
 			title: "Ingot by Ingot"
-			x: 5.5d
+			x: 6.0d
 			y: 0.0d
 			dependencies: ["3FE9D940B012D8D0"]
 			id: "0416CFCB050A7538"
@@ -280,6 +211,46 @@
 				type: "item"
 				item: "skymachina:sky_token"
 				count: 5
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "5C8AE4D6B4340C64"
+			tasks: [{
+				id: "55EC07FA9A362E6E"
+				type: "item"
+				item: "minecraft:composter"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "29485F76CE22C7E8"
+			tasks: [{
+				id: "470473DDF3A441FF"
+				type: "item"
+				item: "minecraft:bone_meal"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "240FD2EA9FEDDDE0"
+			tasks: [{
+				id: "5716EACB83E77047"
+				type: "item"
+				item: "immersiveengineering:hemp_fiber"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "6B0B7C60F3A4445A"
+			tasks: [{
+				id: "15E9D4310364CF29"
+				type: "item"
+				item: "minecraft:string"
 			}]
 		}
 	]

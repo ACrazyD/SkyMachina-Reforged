@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 0.0d
+			x: 0.5d
 			y: 0.0d
 			id: "729B6097D38FD7D7"
 			tasks: [{
@@ -19,7 +19,7 @@
 			}]
 		}
 		{
-			x: 1.0d
+			x: 1.5d
 			y: 0.0d
 			id: "327FE5DD7473BC99"
 			tasks: [{
@@ -35,7 +35,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 2.5d
 			y: 0.0d
 			id: "54FF72C17762D0A0"
 			tasks: [{
@@ -46,7 +46,7 @@
 		}
 		{
 			x: 3.0d
-			y: -1.0d
+			y: 1.0d
 			id: "4AC532245F4D9E87"
 			tasks: [{
 				id: "6B60E056B58754A2"
@@ -55,8 +55,8 @@
 			}]
 		}
 		{
-			x: 3.0d
-			y: 1.0d
+			x: 2.0d
+			y: -1.0d
 			id: "576791DD0F1720FE"
 			tasks: [
 				{
@@ -70,6 +70,149 @@
 					item: "create:basin"
 				}
 			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "6E7933ADD8061059"
+			tasks: [{
+				id: "731DC2B22D9DFA95"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "7B701F9F40C9BBE9"
+			tasks: [
+				{
+					id: "7F396B8A6279FF50"
+					type: "item"
+					item: "waterstrainer:strainer_base"
+				}
+				{
+					id: "7735B1DFD4B66325"
+					type: "item"
+					item: {
+						id: "waterstrainer:strainer_survivalist"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "26D69FDF6C0A312F"
+			tasks: [{
+				id: "160C5198376613D6"
+				type: "item"
+				item: "minecraft:clay_ball"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			id: "27D99203D3905AF8"
+			tasks: [{
+				id: "1DD82EF48E34ADB9"
+				type: "item"
+				item: "skymachina:porcelain_clay"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			id: "4444F19E5FDA051D"
+			tasks: [{
+				id: "40E3C1FC931ACF93"
+				type: "item"
+				item: "skymachinatweaks:unfired_crucible"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.0d
+			id: "4361C88B9E121957"
+			tasks: [{
+				id: "377B0CF85F424169"
+				type: "item"
+				item: "skymachinatweaks:crucible"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			id: "3DB358639962542B"
+			tasks: [{
+				id: "290C975C5EA1B441"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			id: "1920076C78AC2C30"
+			tasks: [{
+				id: "09DB79C384C060EA"
+				type: "item"
+				item: "skymachina:mineral_water_bucket"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "4A5CA11E5CE77FA2"
+			tasks: [{
+				id: "2452B3E89003B14D"
+				type: "item"
+				item: "create_mechanical_extruder:mechanical_extruder"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			id: "0C5E361DA51E4248"
+			tasks: [{
+				id: "377C8A68463EEB69"
+				type: "item"
+				item: "skymachina:t2_ore_catalyst"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			id: "3E886181FA961F7A"
+			tasks: [{
+				id: "667375C5A1FBDB04"
+				type: "item"
+				item: "minecraft:brick"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			id: "25A8E5F026CFC3B3"
+			tasks: [{
+				id: "0C1BBE396507205A"
+				type: "item"
+				item: "skymachina:t2_mineral_deposit"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			id: "575FEB4467797DC7"
+			tasks: [{
+				id: "143643D24DDA5104"
+				type: "item"
+				item: "minecraft:redstone"
+			}]
 		}
 	]
 	quest_links: [ ]

@@ -4,8 +4,130 @@
 	order_index: 0
 	filename: "create"
 	title: "Create"
+	icon: "extendedflywheels:flywheel"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
-	quests: [ ]
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "0AFC11914A2BAEA1"
+			tasks: [{
+				id: "344E8BF79FF26775"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "6C786DDD29A68088"
+			tasks: [{
+				id: "010E88FE60DF128F"
+				type: "item"
+				item: "create:shaft"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.0d
+			id: "00EE43AF98089BFD"
+			tasks: [{
+				id: "65E0767DF63B6412"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			id: "4AF62768F9C00574"
+			tasks: [{
+				id: "6DC1D39D07483EB8"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			id: "263A431662ED2B76"
+			tasks: [{
+				id: "0F302262F321CBF1"
+				type: "item"
+				item: "create:andesite_funnel"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "0D7B35036882A306"
+			tasks: [{
+				id: "17AC5134151EC9FE"
+				type: "item"
+				item: "create:chute"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			id: "19C44A617319906F"
+			tasks: [{
+				id: "782F6B90E601957D"
+				type: "item"
+				item: "minecraft:dried_kelp"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -2.5d
+			id: "50FF6B16A03E58EC"
+			tasks: [{
+				id: "557CB6D7CF78B2DD"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			id: "016984A19033EEA6"
+			tasks: [{
+				id: "7042BBFCD3A0DCB2"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "567F137E422C74D5"
+			tasks: [{
+				id: "49071386F8CF9B20"
+				type: "item"
+				item: "create:spout"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "7E2B627E28DE6BE3"
+			tasks: [{
+				id: "22D225C42E9B8BDA"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "75927BD8ED685C67"
+			tasks: [{
+				id: "60EC9ECECB98F3D8"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+		}
+	]
 	quest_links: [ ]
 }

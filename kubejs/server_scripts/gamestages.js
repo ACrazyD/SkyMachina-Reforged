@@ -78,6 +78,9 @@ addStageByMod("farmersdelight", "farmersrespite")
 
 //Misc Stages
 
+//AntiGameStage
+event.shaped('1x minecraft:copper_ingot', ['nnn','nnn','nnn'],{n:'#forge:nuggets/copper'}).stage('')
+
 
 
 })

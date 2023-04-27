@@ -54,23 +54,23 @@
 			}]
 		}
 		{
-			x: 2.0d
-			y: 1.0d
-			id: "6037C5103DCD61E3"
+			x: 2.5d
+			y: 0.0d
+			id: "6F6CA25ADEAD791F"
 			tasks: [{
-				id: "6157D299155E904A"
+				id: "62CD5E4D9DAC78C1"
 				type: "item"
-				item: "skymachinatweaks:unfired_crucible"
+				item: "skymachina:t1_ore_catalyst"
 			}]
 		}
 		{
-			x: 2.5d
-			y: 2.0d
-			id: "5B80CDD68113A677"
+			x: 3.5d
+			y: 0.0d
+			id: "372F9C58D83AA5EA"
 			tasks: [{
-				id: "3254767EF69E2593"
+				id: "71BCD63A2EC0F9E2"
 				type: "item"
-				item: "skymachinatweaks:crucible"
+				item: "skymachina:t1_mineral_deposit"
 			}]
 		}
 	]
