@@ -6,14 +6,7 @@
         "f_135805_": "perfect_dark"
       },
       "displayName": {
-        "f_237194_": {
-          "f_237497_": "gui.darkmodeeverywhere.perfect_dark",
-          "f_237498_": [],
-          "f_237500_": []
-        },
-        "f_237195_": [],
-        "f_237196_": {},
-        "f_237197_": {}
+        "translate": "gui.darkmodeeverywhere.perfect_dark"
       },
       "darkColorReplacement": 16777215
     },
@@ -23,14 +16,7 @@
         "f_135805_": "less_perfect_dark"
       },
       "displayName": {
-        "f_237194_": {
-          "f_237497_": "gui.darkmodeeverywhere.less_perfect_dark",
-          "f_237498_": [],
-          "f_237500_": []
-        },
-        "f_237195_": [],
-        "f_237196_": {},
-        "f_237197_": {}
+        "translate": "gui.darkmodeeverywhere.less_perfect_dark"
       },
       "darkColorReplacement": 16777215
     },
@@ -40,14 +26,7 @@
         "f_135805_": "toasted_light"
       },
       "displayName": {
-        "f_237194_": {
-          "f_237497_": "gui.darkmodeeverywhere.toasted_light",
-          "f_237498_": [],
-          "f_237500_": []
-        },
-        "f_237195_": [],
-        "f_237196_": {},
-        "f_237197_": {}
+        "translate": "gui.darkmodeeverywhere.toasted_light"
       },
       "darkColorReplacement": 16777215
     }

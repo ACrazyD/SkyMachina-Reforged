@@ -1,0 +1,12 @@
+{
+    "id": "ftbteamdimensions:simple_start",
+    "structure": "skymachina:islands/simple_start",
+    "name": "Classic Starts",
+    "author": "ACrazyD",
+    "structure_set": "ftbteamdimensions:default",
+    "height": 64,
+    "dimension_type": "ftbteamdimensions:default",
+    "preview_image": "ftbteamdimensions:textures/islands/simple_start.png",
+    "spawn_override": [ 0, 71, 0 ],
+    "display_order": 1
+  }
